@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width:600px) {
+body{
+    background-color: #0E0E0E;
+}
+.lista{
+    background-color:#FFC000 ;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 20px;
+}
+.formu{
+    margin-top: 30px;
+    margin-left: auto;
+    width: 98vw;
+    margin-right: auto;
+    background-color: #191921;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.lista h1{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.lista li{
+    margin-top: 50px;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-left: 3px;
+
+}
+.lista ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+} 
+
+.lista a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.lista a:hover{
+   background-color: #96771d;
+   padding: 5px;
+   border-radius: 10px;
+}
+.linha{
+    border-bottom: 3px solid;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bloco1 label{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.bloco1{
+    margin-top: 30px;
+    background-color:#282A36 ;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content:center;
+    margin-left: 10px;
+   
+    
+}
+.container h1{
+    font-family: 'Rubik', sans-serif;
+    margin-top: 20px;
+}
+
+input{
+    width: 15em;
+    height: 2em;
+    background-color: #282A36;
+    border-radius: 5px;    
+    border: 2px solid #FFC000;
+    font-family: 'Rubik', sans-serif;
+}
+input[type="submit"]{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+.container{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 1em;
+    background-color: #FFC000;
+    border: 2px solid black;
+    height: 30px;
+}
+.button:hover{
+    background-color: #96771d;
+}
+.termos{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+   
+}
+.termo{
+    width: 20px;
+    align-self:center;
+    margin-top: 20px;
+
+}
+.login{
+    background-color: #96771d;
+    padding: 5px;
+    border-radius: 10px;
+}
+.inicio{    
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 30px;  
+    
+}
+}
