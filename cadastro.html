@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="stylesheet" href="../css/mobile/cadastro_mobile.css">
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="formu">
+      <h1 class="inicio">CADASTRO</h1>
+
+      
+        <div class="lista">
+            <div>
+                <h1>KEL DEV</h1>
+                <p class="linha"></p>
+            </div>
+           
+            <ul>
+                <li><a href="login.html" class="login">Login</a></li>
+                <li><a href="termos.html" class="termos_">Termos</a></li>
+                <li><a href="cadastro.html" class="cadastro">Cadastro</a></li>
+            </ul>
+        </div>   
+        <form action="">
+<div class="blocos">
+
+     <form action="" method="get">
+        <div class="bloco1">
+            <div class="container">
+                
+           
+                <h1>Dados Pessoais</h1>
+
+                <label for="nome">Nome Completo
+                    <input type="text" name="nome" id="" required placeholder=" Digite seu nome" min="5">
+                </label>
+
+                <label for="cpf">CPF
+                    <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required placeholder=" Digite o seu CPF"></input>
+                </label>
+               
+                <label for="email">Email
+                    <input type="email" name="email" id="" required placeholder=" Digite seu email">
+                </label>
+                <label for="senha">Senha
+                    <input type="password" name="senha" id="" required placeholder=" Digite sua senha">
+                </label>
+                <label for="senha">Confirme sua senha
+                    <input type="password" name="senha" id="" required placeholder=" Digite sua senha">
+                </label>              
+            </form>
+</div>
+    </div>
+    
+    <div class="bloco2">
+        <form action="" method="get">
+            <h1>Endereço</h1>
+            <label for="rua">Rua
+                <input type="text" name="rua" id="" required placeholder=" Digite sua rua">
+            </label>
+            <label for="casa">Numero
+                <input type="text" name="casa" id="" required placeholder=" Digite o numero da casa">
+            </label>
+            <label for="apto">Apto
+                <input type="text" name="apto" id="" placeholder=" Digite o apto">
+            </label>
+            <label for="CEP">CEP
+                <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required placeholder=" Digite o CEP"></input>
+                
+            </label>
+            
+        </form>
+     </div>
+     <input type="submit" value="CADASTRAR" class="button">
+    </form>
+    </section>
+    </div>
+
+  
+    
+</body>
+</html>
